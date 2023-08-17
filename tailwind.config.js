@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -12,7 +11,17 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        navy: '#001F3F',
+        teal: '#39CCCC',
+        white: '#FFFFFF',
+        yellow: '#FFDC00',
+        red: '#FF4136',
+        gray : '#F1F1F1',
+        grey : '#D9D9D9',
+        black : '#000000',
+      },
     },
   },
   plugins: [],
-}
+};
